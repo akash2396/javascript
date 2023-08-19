@@ -2,7 +2,7 @@ console.log("Hello World")
 
 let a = 5
 console.log(a)
-console.log(typeof(a))
+console.log(typeof(a)) // 
 
 let string  = "Akash"
 console.log(string)
@@ -32,6 +32,8 @@ console.log(num1="akash")
 const k = 23
 
 console.log(k)
+
+
 
 
 

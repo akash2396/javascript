@@ -24,8 +24,6 @@ console.log(greet);
 //if it is var it will replace the global variable with variable decleared in the blocl {}
 
 
-
-
 // let keyword ==> global level / block level {}
 
 let myName = "akash"
@@ -63,10 +61,5 @@ sub = 50
 */
 
 // another keyword is const which is similar to let only diff is it can not be reinitialize
-
-
-
-
-
 
 
