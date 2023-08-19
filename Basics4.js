@@ -77,6 +77,37 @@ let newSum= numbers.filter(num => num%2==0).map(num => num*5).reduce((initialSum
 console.log(newSum);
 
 
+console.log("===========================================================================================================");
+
+/* 
+Sorting of an array
+There ate two types of sorting:
+1.Sorting of an array which have String
+2.Sorting of an array which have numbers
+*/
+
+let names = ["Samiksha","Amol","Darshan","Akash","Rohan","Shubham","Mayur"];
+
+let sortedNamesArray = names.sort();
+console.log(sortedNamesArray);
+
+var nums = [23,66,003,99,16];
+
+/*
+nums.sort(function(a,b){
+    return a-b
+})
+
+*/
+
+console.log(nums.sort((a,b) => a-b))
+
+console.log(nums.sort((a,b) => b-a))
+
+
+ 
+
+
 
 
 
