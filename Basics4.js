@@ -66,6 +66,16 @@ var mappedArray = evenScores.map(score => score*3)
 
 console.log(mappedArray);
 
+//method chaing
+
+//create new array with even no and multiply each no by 5 and sum them
+
+var numbers = [2,3,4,5,6,7,8,9,10];
+let initialSum = 0;
+let newSum= numbers.filter(num => num%2==0).map(num => num*5).reduce((initialSum,totalSum)=>initialSum+totalSum,0);
+
+console.log(newSum);
+
 
 
 
