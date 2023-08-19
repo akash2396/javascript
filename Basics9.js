@@ -27,15 +27,22 @@ module.exports = class persons22
         console.log(this.firstName+this.lastName);
     }
 
+
 }
 
- let persons = new persons22("Rohan","Dhiman")
- persons.fullname();
 
-console.log(persons.age)
 
-console.log(persons.location)
 
-let persons1 = new persons22("darshan ","kotambe")
-persons1.fullname();
+
+
+
+//  let persons = new persons22("Rohan","Dhiman")
+//  persons.fullname();
+
+// console.log(persons.age)
+
+// console.log(persons.location)
+
+// let persons1 = new persons22("darshan ","kotambe")
+// persons1.fullname();
 
