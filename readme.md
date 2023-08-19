@@ -99,3 +99,9 @@ I need to highlight these ==very important words==.
 Subscript	H~2~O
 
 Superscript	X^2^
+
+## Git commands
+git add .
+git status 
+git commit -m "message"
+git push
